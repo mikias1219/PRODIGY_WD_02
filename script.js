@@ -40,7 +40,7 @@ function recordLap() {
         lapNumber++;
     }
 }
-
+//function used to reset
 function resetStopwatch() {
     clearInterval(timer);
     document.getElementById('display').innerText = '00:00:00';
